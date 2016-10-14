@@ -112,5 +112,5 @@ var ListContainer = React.createClass({
     }
 });
 document.addEventListener('DOMContentLoaded', function() {
-    ReactDOM.render(<List />, document.getElementById('app'));
+    ReactDOM.render(<List />, document.getElementById('board'));
 });

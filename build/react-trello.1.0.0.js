@@ -191,7 +191,7 @@
 	    }
 	});
 	document.addEventListener('DOMContentLoaded', function () {
-	    ReactDOM.render(React.createElement(List, null), document.getElementById('app'));
+	    ReactDOM.render(React.createElement(List, null), document.getElementById('board'));
 	});
 
 /***/ },
