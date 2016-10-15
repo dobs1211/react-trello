@@ -22,7 +22,7 @@ var List = React.createClass({
             list: ["List 1"],
         };
     },
-    onAddInputChanged: function(event) {
+        onAddInputChanged: function(event) {
         console.log("Typed in input box");
         this.setState({
             text: event.target.value
